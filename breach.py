@@ -43,7 +43,7 @@ class Breach():
 if __name__ == '__main__':
     args = {}
     with open('config.yml', 'r') as ymlconf:
-        cfg = yaml.load(ymlconf)
+        cfg = yaml.load(ymlconf, Loader=yaml.FullLoader) 
     args.update(cfg['execution'])
     args.update(cfg['endpoint'])
     args.update(cfg['local'])

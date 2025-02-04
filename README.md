@@ -1,6 +1,6 @@
 # BREACH
 
-*NOTE*: This repository is not maintained anymore. The project has evolved in the [Rupture tool](https://github.com/decrypto-org/rupture), so make sure to check this out if you are interested in the research on the BREACH attack.
+*NOTE*: This repository is fixed by me and i used 3.12.8 as the python version. The project has evolved in the [Rupture tool](https://github.com/decrypto-org/rupture), so make sure to check this out if you are interested in the research on the BREACH attack.
 
 ## Description
 

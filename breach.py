@@ -61,5 +61,5 @@ if __name__ == '__main__':
             args = breach.execute_parser()
             breach.debug_logger.debug('Found the following illegal iterations: ' + str(args['illegal_iterations']) + '\n')
     except Exception as e:
-        print e
+        print(e) 
         traceback.print_exc()

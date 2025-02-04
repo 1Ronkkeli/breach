@@ -49,7 +49,7 @@ class Sniffer(object):
         '''
         try:
             self.s = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(0x0003))
-        except socket.error, msg:
+        except socket.error as msg:
             self.sniff_logger.error('Socket could not be created. Error Code : ' + str(msg[0]) + ' Message ' + msg[1])
             sys.exit()
         self.sniff_full_logger.info('Network socket setup successfully.')
